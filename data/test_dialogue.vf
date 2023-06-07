@@ -1,0 +1,686 @@
+{
+  "_version": "1.2",
+  "project": {
+    "_id": "64806aacaf2506000787b13c",
+    "name": "test_for_dialogue_viz",
+    "teamID": "e3nAXoyGjz",
+    "devVersion": "64806aac64fb949d733caadb",
+    "platform": "voiceflow",
+    "type": "chat",
+    "platformData": {
+      "invocationName": "template project general"
+    },
+    "members": [],
+    "linkType": "STRAIGHT",
+    "image": "",
+    "customThemes": [],
+    "_version": 1.2,
+    "updatedAt": "2023-06-07T11:33:59.145Z",
+    "creatorID": 105347,
+    "updatedBy": 105347,
+    "apiPrivacy": "private",
+    "createdAt": "2023-06-07T11:31:56.000Z"
+  },
+  "version": {
+    "_id": "64806aac64fb949d733caadb",
+    "variables": [
+      "sessions",
+      "user_id",
+      "timestamp",
+      "platform",
+      "locale"
+    ],
+    "platformData": {
+      "slots": [],
+      "intents": [
+        {
+          "key": "nqwu3ogp",
+          "name": "option1",
+          "inputs": [],
+          "slots": []
+        },
+        {
+          "key": "4j10d3o02",
+          "name": "option2",
+          "inputs": [],
+          "slots": []
+        }
+      ],
+      "settings": {
+        "restart": true,
+        "repeat": 100,
+        "locales": [
+          "en-US"
+        ],
+        "defaultVoice": "Alexa"
+      },
+      "publishing": {},
+      "platform": "voiceflow"
+    },
+    "_version": 4.02,
+    "name": "Initial Version",
+    "projectID": "64806aacaf2506000787b13c",
+    "manualSave": false,
+    "autoSaveFromRestore": false,
+    "topics": [
+      {
+        "sourceID": "64806aac64fb949d733caadc",
+        "type": "DIAGRAM"
+      }
+    ],
+    "components": [],
+    "rootDiagramID": "64806aac64fb949d733caadc",
+    "creatorID": 105347,
+    "domains": [
+      {
+        "id": "clilmqrhf0h0107n4065z5lsb",
+        "name": "Home",
+        "live": true,
+        "topicIDs": [
+          "64806aac64fb949d733caadc",
+          "64806ae6d59429000753e184",
+          "64806b05d59429000753e185"
+        ],
+        "rootDiagramID": "64806aac64fb949d733caadc",
+        "updatedAt": "2023-06-07T11:33:43.047Z",
+        "updatedBy": 105347
+      }
+    ],
+    "prototype": {
+      "type": "chat",
+      "data": {
+        "name": "test_for_dialogue_viz",
+        "locales": [
+          "en-US"
+        ]
+      },
+      "model": {
+        "intents": [
+          {
+            "key": "nqwu3ogp",
+            "name": "option1",
+            "inputs": [
+              {
+                "text": "option1"
+              }
+            ],
+            "slots": []
+          },
+          {
+            "key": "4j10d3o02",
+            "name": "option2",
+            "inputs": [
+              {
+                "text": "option2"
+              }
+            ],
+            "slots": []
+          }
+        ],
+        "slots": []
+      },
+      "context": {
+        "stack": [
+          {
+            "programID": "64806aac64fb949d733caadc",
+            "storage": {},
+            "variables": {}
+          }
+        ],
+        "variables": {}
+      },
+      "surveyorContext": {
+        "slotsMap": {},
+        "extraSlots": [],
+        "extraIntents": [],
+        "usedIntentsSet": [
+          "nqwu3ogp",
+          "4j10d3o02"
+        ],
+        "platform": "voiceflow",
+        "goToIntentsSet": [],
+        "products": {},
+        "interfaces": [],
+        "permissions": [],
+        "usedCustomBlocks": [],
+        "usedEventsSet": []
+      },
+      "settings": {},
+      "platform": "voiceflow"
+    }
+  },
+  "diagrams": {
+    "64806aac64fb949d733caadc": {
+      "_id": "64806aac64fb949d733caadc",
+      "offsetX": 302.9908936551516,
+      "offsetY": 137.4448574044576,
+      "zoom": 100,
+      "variables": [],
+      "name": "ROOT",
+      "versionID": "64806aac64fb949d733caadb",
+      "creatorID": 105347,
+      "modified": 1686137516,
+      "intentStepIDs": [],
+      "type": "TOPIC",
+      "nodes": {
+        "start00000000000000000000": {
+          "nodeID": "start00000000000000000000",
+          "type": "start",
+          "coords": [
+            321.26138293106055,
+            78.19392824442801
+          ],
+          "data": {
+            "name": "Start",
+            "color": "#56b365",
+            "steps": [],
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": "63068ee2b9d93f34f5d1f11c",
+                  "id": "6032afcf359e8c14c06c0319",
+                  "data": {
+                    "points": [
+                      {
+                        "point": [
+                          385.89810859038664,
+                          100.19395159299899
+                        ],
+                        "toTop": false,
+                        "locked": false,
+                        "reversed": false,
+                        "allowedToTop": false
+                      },
+                      {
+                        "point": [
+                          445.5999390674715,
+                          100.19395159299899
+                        ],
+                        "toTop": false,
+                        "locked": false,
+                        "reversed": false,
+                        "allowedToTop": false
+                      },
+                      {
+                        "point": [
+                          445.5999390674715,
+                          54.938514940613715
+                        ],
+                        "toTop": false,
+                        "locked": false,
+                        "reversed": false,
+                        "allowedToTop": false
+                      },
+                      {
+                        "point": [
+                          505.3017695445564,
+                          54.938514940613715
+                        ],
+                        "toTop": false,
+                        "locked": false,
+                        "reversed": false,
+                        "allowedToTop": true
+                      }
+                    ]
+                  }
+                }
+              },
+              "dynamic": []
+            },
+            "label": "Start"
+          }
+        },
+        "63068ee2b9d93f34f5d1f11a": {
+          "type": "text",
+          "data": {
+            "name": "Text",
+            "texts": [
+              {
+                "id": "73r23sar",
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "This is the first message in your assistant."
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "canvasVisibility": "preview",
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": "64806abe9ab82f0e1b450ad4",
+                  "id": "63068ee2b9d93f34f5d1f11b",
+                  "data": {}
+                }
+              },
+              "dynamic": []
+            }
+          },
+          "nodeID": "63068ee2b9d93f34f5d1f11a"
+        },
+        "63068ee2b9d93f34f5d1f11c": {
+          "type": "block",
+          "data": {
+            "name": "Welcome",
+            "steps": [
+              "63068ee2b9d93f34f5d1f11a"
+            ],
+            "color": ""
+          },
+          "nodeID": "63068ee2b9d93f34f5d1f11c",
+          "coords": [
+            670.3017678452849,
+            27.9384935748209
+          ]
+        },
+        "64806abe9ab82f0e1b450ad2": {
+          "type": "text",
+          "data": {
+            "name": "Text",
+            "texts": [
+              {
+                "id": "bosq3ol0",
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "Which option would you like?"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "canvasVisibility": "preview",
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": null,
+                  "id": "64806abe9ab82f0e1b450ad3"
+                }
+              },
+              "dynamic": []
+            }
+          },
+          "nodeID": "64806abe9ab82f0e1b450ad2"
+        },
+        "64806abe9ab82f0e1b450ad4": {
+          "type": "block",
+          "data": {
+            "name": "Select option",
+            "steps": [
+              "64806abe9ab82f0e1b450ad2",
+              "64806ad39ab82f0e1b450ada"
+            ],
+            "color": ""
+          },
+          "nodeID": "64806abe9ab82f0e1b450ad4",
+          "coords": [
+            1122.2024180248816,
+            39.0402646825402
+          ]
+        },
+        "64806ad39ab82f0e1b450ada": {
+          "type": "buttons",
+          "data": {
+            "name": "Buttons",
+            "buttons": [
+              {
+                "id": "d6u33okc",
+                "name": "Option 1",
+                "actions": []
+              },
+              {
+                "id": "zkuv3odo",
+                "name": "Option 2",
+                "actions": []
+              }
+            ],
+            "intentScope": "GLOBAL",
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "else": {
+                  "type": "else",
+                  "target": null,
+                  "id": "64806ad39ab82f0e1b450adc"
+                }
+              },
+              "dynamic": [
+                {
+                  "type": "",
+                  "target": "64806b269ab82f0e1b450b0b",
+                  "id": "64806ad39ab82f0e1b450adb",
+                  "data": {}
+                },
+                {
+                  "id": "64806ada9ab82f0e1b450ae0",
+                  "type": "",
+                  "target": "64806b359ab82f0e1b450b11",
+                  "data": {}
+                }
+              ]
+            }
+          },
+          "nodeID": "64806ad39ab82f0e1b450ada"
+        },
+        "64806b269ab82f0e1b450b0a": {
+          "type": "goTo",
+          "data": {
+            "name": "",
+            "intent": "nqwu3ogp",
+            "diagramID": "64806ae6d59429000753e184",
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {},
+              "dynamic": []
+            }
+          },
+          "nodeID": "64806b269ab82f0e1b450b0a"
+        },
+        "64806b269ab82f0e1b450b0b": {
+          "type": "actions",
+          "data": {
+            "name": "",
+            "steps": [
+              "64806b269ab82f0e1b450b0a"
+            ]
+          },
+          "nodeID": "64806b269ab82f0e1b450b0b",
+          "coords": [
+            0,
+            0
+          ]
+        },
+        "64806b359ab82f0e1b450b10": {
+          "type": "goTo",
+          "data": {
+            "name": "",
+            "intent": "4j10d3o02",
+            "diagramID": "64806b05d59429000753e185",
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {},
+              "dynamic": []
+            }
+          },
+          "nodeID": "64806b359ab82f0e1b450b10"
+        },
+        "64806b359ab82f0e1b450b11": {
+          "type": "actions",
+          "data": {
+            "name": "",
+            "steps": [
+              "64806b359ab82f0e1b450b10"
+            ]
+          },
+          "nodeID": "64806b359ab82f0e1b450b11",
+          "coords": [
+            0,
+            0
+          ]
+        }
+      },
+      "menuItems": [
+        {
+          "type": "NODE",
+          "sourceID": "start00000000000000000000"
+        }
+      ],
+      "menuNodeIDs": []
+    },
+    "64806ae6d59429000753e184": {
+      "_id": "64806ae6d59429000753e184",
+      "name": "Option 1",
+      "type": "TOPIC",
+      "zoom": 100,
+      "nodes": {
+        "64806ae68845ac000766a4a4": {
+          "type": "block",
+          "nodeID": "64806ae68845ac000766a4a4",
+          "coords": [
+            360,
+            120
+          ],
+          "data": {
+            "name": "",
+            "color": "",
+            "steps": [
+              "64806ae68845ac000766a4a3"
+            ]
+          }
+        },
+        "64806ae68845ac000766a4a3": {
+          "type": "intent",
+          "nodeID": "64806ae68845ac000766a4a3",
+          "data": {
+            "intent": "nqwu3ogp",
+            "mappings": [],
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "id": "64806ae68845ac000766a4a5",
+                  "type": "next",
+                  "target": "64806af29ab82f0e1b450ae7",
+                  "data": {
+                    "points": [
+                      {
+                        "point": [
+                          434.87,
+                          142
+                        ]
+                      },
+                      {
+                        "point": [
+                          514.33,
+                          142
+                        ]
+                      },
+                      {
+                        "point": [
+                          514.33,
+                          86.75
+                        ]
+                      },
+                      {
+                        "point": [
+                          593.78,
+                          86.75
+                        ],
+                        "allowedToTop": true
+                      }
+                    ]
+                  }
+                }
+              },
+              "dynamic": []
+            },
+            "availability": "GLOBAL",
+            "name": ""
+          }
+        },
+        "64806af29ab82f0e1b450ae5": {
+          "type": "text",
+          "data": {
+            "name": "Text",
+            "texts": [
+              {
+                "id": "q5xd3ocm",
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "This is option 1"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "canvasVisibility": "preview",
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": null,
+                  "id": "64806af29ab82f0e1b450ae6"
+                }
+              },
+              "dynamic": []
+            }
+          },
+          "nodeID": "64806af29ab82f0e1b450ae5"
+        },
+        "64806af29ab82f0e1b450ae7": {
+          "type": "block",
+          "data": {
+            "name": "New Block 1",
+            "steps": [
+              "64806af29ab82f0e1b450ae5"
+            ]
+          },
+          "nodeID": "64806af29ab82f0e1b450ae7",
+          "coords": [
+            758.7812499999999,
+            59.74999999999997
+          ]
+        }
+      },
+      "offsetX": 0,
+      "offsetY": 0,
+      "modified": 1686137574,
+      "variables": [],
+      "menuItems": [
+        {
+          "type": "NODE",
+          "sourceID": "64806ae68845ac000766a4a3"
+        }
+      ],
+      "creatorID": 105347,
+      "versionID": "64806aac64fb949d733caadb",
+      "intentStepIDs": [
+        "64806ae68845ac000766a4a3"
+      ]
+    },
+    "64806b05d59429000753e185": {
+      "_id": "64806b05d59429000753e185",
+      "name": "Option 2",
+      "type": "TOPIC",
+      "zoom": 100,
+      "nodes": {
+        "64806b058845ac000766a4a7": {
+          "type": "block",
+          "nodeID": "64806b058845ac000766a4a7",
+          "coords": [
+            360,
+            120
+          ],
+          "data": {
+            "name": "",
+            "color": "",
+            "steps": [
+              "64806b058845ac000766a4a6"
+            ]
+          }
+        },
+        "64806b058845ac000766a4a6": {
+          "type": "intent",
+          "nodeID": "64806b058845ac000766a4a6",
+          "data": {
+            "intent": "4j10d3o02",
+            "mappings": [],
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "id": "64806b058845ac000766a4a8",
+                  "type": "next",
+                  "target": "64806b169ab82f0e1b450af3",
+                  "data": {}
+                }
+              },
+              "dynamic": []
+            },
+            "availability": "GLOBAL",
+            "name": ""
+          }
+        },
+        "64806b169ab82f0e1b450af1": {
+          "type": "text",
+          "data": {
+            "name": "Text",
+            "texts": [
+              {
+                "id": "go1113ojs",
+                "content": [
+                  {
+                    "children": [
+                      {
+                        "text": "This is option 2"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "canvasVisibility": "preview",
+            "portsV2": {
+              "byKey": {},
+              "builtIn": {
+                "next": {
+                  "type": "next",
+                  "target": null,
+                  "id": "64806b169ab82f0e1b450af2"
+                }
+              },
+              "dynamic": []
+            }
+          },
+          "nodeID": "64806b169ab82f0e1b450af1"
+        },
+        "64806b169ab82f0e1b450af3": {
+          "type": "block",
+          "data": {
+            "name": "New Block 1",
+            "steps": [
+              "64806b169ab82f0e1b450af1"
+            ]
+          },
+          "nodeID": "64806b169ab82f0e1b450af3",
+          "coords": [
+            743.7812423706055,
+            79.75000762939452
+          ]
+        }
+      },
+      "offsetX": 0,
+      "offsetY": 0,
+      "modified": 1686137605,
+      "variables": [],
+      "menuItems": [
+        {
+          "type": "NODE",
+          "sourceID": "64806b058845ac000766a4a6"
+        }
+      ],
+      "creatorID": 105347,
+      "versionID": "64806aac64fb949d733caadb",
+      "intentStepIDs": [
+        "64806b058845ac000766a4a6"
+      ]
+    }
+  },
+  "variableStates": []
+}
